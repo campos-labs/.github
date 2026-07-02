@@ -12,6 +12,7 @@ Nosso objetivo é um fluxo colaborativo assíncrono, rastreável e focado em ent
 ## 2. Ciclo de Vida e Documentação
 
 * Projetos nascem como RFCs no repositório `project-hub`. Ao entrarem em execução, ganham repositório dedicado.
+* Discussions e Polls podem ser usados para ideação e priorização, mas a decisão executável é sempre registrada na Issue.
 * O `DESIGN.md` é a única fonte da verdade arquitetural. Ele migra para o repositório do projeto e evolui com o código.
 
 ## 3. Padrões Técnicos
