@@ -1,21 +1,29 @@
 # Política de Segurança
 
-A segurança dos projetos, credenciais e dados é tratada como parte do nosso fluxo de desenvolvimento.
-Este repositório reúne projetos de portfólio, estudos técnicos e soluções demonstrativas. Ainda assim, seguimos boas práticas para evitar exposição indevida de credenciais, dados sensíveis ou configurações internas.
+A segurança das nossas aplicações, infraestrutura e dados é tratada como prioridade ao longo de todo o ciclo de desenvolvimento.  
+Esta política define as diretrizes para o relato seguro de vulnerabilidades e nossas práticas de conformidade.
 
-## Relato de Vulnerabilidades e Vazamentos
+## Relato de Vulnerabilidades
 
-Se você encontrar uma vulnerabilidade, credencial, token, chave de API, `connection string` ou qualquer informação sensível exposta em nossos repositórios, **não abra uma Issue pública**.
-Entre em contato de forma privada com os mantenedores da organização para que possamos avaliar o caso, revogar credenciais se necessário e corrigir o problema com segurança.
+Caso você identifique uma falha de segurança, credencial exposta ou qualquer vulnerabilidade, **não abra uma Issue pública**.
 
-## Tratamento de Credenciais e Dados Sensíveis
+Utilize o recurso nativo de **Private Vulnerability Reporting** do GitHub para garantir a confidencialidade do relato, quando disponível:
 
-* Não versionamos senhas, tokens, chaves de API, `connection strings` ou arquivos `.env` reais.
-* Não versionamos dados reais de clientes, empresas, usuários ou terceiros.
-* Arquivos de exemplo devem usar valores fictícios ou placeholders, como `.env.example`.
-* Exports de ferramentas low-code, automações, notebooks ou pipelines devem ser higienizados antes de entrar no Git.
-* Caso algum segredo seja exposto acidentalmente, a credencial deve ser revogada e substituída.
+1. Acesse a aba **Security** no repositório afetado.
+2. No menu lateral, clique em **Advisories**.
+3. Clique em **Report a vulnerability** e forneça os detalhes técnicos.
 
-## Escopo
+Nossa equipe tratará o relato de forma confidencial, avaliando o impacto e aplicando as correções necessárias com segurança.
 
-Esta política se aplica aos repositórios públicos da organização, salvo quando um projeto tiver uma política de segurança própria.
+## Práticas e Conformidade
+
+Para mitigar riscos e garantir a integridade dos repositórios da organização, adotamos as seguintes práticas contínuas:
+
+* **Gestão de Segredos:** É proibido versionar senhas, tokens, chaves de API, `connection strings` ou arquivos `.env` reais.
+* **Dados Sensíveis:** Não versionamos dados reais de usuários. Exemplos usam valores sintéticos ou *placeholders*.
+* **Higienização:** Exportações *low-code*, configurações e *pipelines* devem ser higienizados antes do commit.
+* **Revogação:** Na exposição acidental, a credencial é revogada, substituída e o incidente analisado.
+
+## Versões Suportadas
+
+Atualmente, apenas a branch principal (`main`) dos nossos projetos recebe atualizações e correções ativas de segurança.
