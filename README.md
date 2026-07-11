@@ -1,16 +1,20 @@
-# Bem-vindo à Campos Labs 🚀
+# Campos Labs 🚀
 
-Laboratório de engenharia de software focado em arquiteturas escaláveis, automação e soluções de dados e inteligência artificial.
+Laboratório de engenharia de software focado em arquitetura de sistemas, automação corporativa, soluções de dados e inteligência artificial.
 
-## Nosso Foco Técnico
+## Áreas de Atuação
 
-* **Backend e IA:** Python, FastAPI, Django, LangGraph, APIs, RAG, agentes de IA.
+O problema de negócio guia a arquitetura. Atuamos nas frentes abaixo, com adoção de novas tecnologias conforme demanda de cada projeto.
+
+* **Backend e IA:** Python, FastAPI, Django, LangGraph, RAG, sistemas multi-agentes.
 * **Engenharia de Dados:** PostgreSQL, DuckDB, Cosmos DB, Fabric, pipelines analíticos.
 * **Automação e Integrações:** Microsoft Power Platform, n8n, RPA, fluxos corporativos.
-* **Infraestrutura e Cloud:** Docker, Redis, GitHub Actions, Azure, AWS, práticas DevOps.
+* **Infraestrutura e Cloud:** Docker, GitHub Actions, Redis, Terraform, AWS, Azure, DevOps.  
 
 ## Governança
-Nossa organização opera sob um modelo ágil, assíncrono e rastreável. Para entender nossa esteira de desenvolvimento, regras de code review e ciclo de vida de projetos, consulte nosso [Guia de Governança e Fluxo de Trabalho](https://github.com/campos-labs/.github/blob/main/CONTRIBUTING.md).
 
-## Project Hub
-Projetos em ideação, documentos vivos de arquitetura e decisões técnicas (RFCs/ADRs) nascem em nosso [Project Hub](https://github.com/campos-labs/project-hub).
+A esteira de desenvolvimento é visual, assíncrona e rastreável. As diretrizes completas estão no [Guia de Governança e Fluxo de Trabalho](https://github.com/campos-labs/.github/blob/main/CONTRIBUTING.md).
+
+## Hub de Projetos
+
+As ideias, RFCs, decisões arquiteturais e documentos técnicos de apoio ficam centralizados no repositório [Project Hub](https://github.com/campos-labs/project-hub).
