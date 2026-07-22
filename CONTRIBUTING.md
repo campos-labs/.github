@@ -12,7 +12,7 @@ Fase dedicada à ideação (início opcional em *Discussions*), validações e d
 - **`ADR`:** Registra a decisão baseada em evidências, define o recorte adotado e atualiza o `DESIGN.md` quando a arquitetura muda.
 - **`Epic`:** Mapeia e coordena capacidades amplas; pode ser subissue temporária da RFC para registrar escopos adiados.
 
-Aprovada a RFC (via *pool*), o produto ganha repositório dedicado, `DESIGN.md` e Epics podem ser transferidos, e a RFC é encerrada.
+Aprovada a RFC (via *poll*), o produto ganha repositório dedicado, `DESIGN.md` e Epics podem ser transferidos, e a RFC é encerrada.
 
 ## 2. Fase de Execução e Releases (Repositório Dedicado)
 
@@ -38,6 +38,7 @@ flowchart LR
     P --> A[ADR]
     A --> G[DESIGN]
     A -. escopo adiado .-> E[Epic]
+    A -. futuro/incerto .-> D
     G --> X[Produto]
     E -. transfere .-> X
     X --> M[Milestone]
