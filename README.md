@@ -15,6 +15,6 @@ O problema de negócio guia a arquitetura. Atuamos nas frentes abaixo, com adoç
 - **Fluxo de Trabalho:** Acompanhamos entregas em [Kanban Visual], de forma assíncrona e rastreável. Regras no [Guia de Governança].
 - **Project Hub:** Ideias, RFCs, pesquisas e decisões amadurecem no [Project Hub] antes de ganharem repositórios dedicados.
 
-[Kanban Visual]: https://github.com/orgs/campos-labs/projects/1
+[Kanban Visual]: https://github.com/orgs/campos-labs/projects/2
 [Guia de Governança]: https://github.com/campos-labs/.github/blob/main/CONTRIBUTING.md
 [Project Hub]: https://github.com/campos-labs/project-hub
