@@ -6,7 +6,7 @@ Engenharia orientada à simplicidade, rastreabilidade e entregas demonstráveis.
 
 Fase dedicada à ideação (início opcional em *Discussions*), validações e decisões pré-implementação, estruturada por tipos de issue:
 
-- **`RFC`:** Issue coordenador que amadurece a proposta, seus limites e a arquitetura inicial registrada no `DESIGN.md`.
+- **`RFC`:** Issue coordenadora que amadurece a proposta, seus limites e a arquitetura inicial registrada no `DESIGN.md`.
 - **`POC`:** Valida a hipótese técnica focada; `research/` concentra o código necessário e evidências explicadas.
 - **`Spike`:** Compara alternativas, investiga trade-offs e reduz incertezas antes da decisão.
 - **`ADR`:** Registra a decisão baseada em evidências, define o recorte adotado e atualiza o `DESIGN.md` quando a arquitetura muda.
