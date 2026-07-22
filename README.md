@@ -11,10 +11,10 @@ O problema de negócio guia a arquitetura. Atuamos nas frentes abaixo, com adoç
 * **Automação e Integrações:** Microsoft Power Platform, n8n, RPA, fluxos corporativos.
 * **Infraestrutura e Cloud:** Docker, GitHub Actions, Redis, Terraform, AWS, Azure, DevOps.  
 
-## Governança
+## Governança e Projetos
+- **Fluxo de Trabalho:** Acompanhamos entregas em [Kanban Visual], de forma assíncrona e rastreável. Regras no [Guia de Governança].
+- **Project Hub:** Ideias, RFCs, pesquisas e decisões amadurecem no [Project Hub] antes de ganharem repositórios dedicados.
 
-A esteira de desenvolvimento é visual, assíncrona e rastreável. As diretrizes completas estão no [Guia de Governança e Fluxo de Trabalho](https://github.com/campos-labs/.github/blob/main/CONTRIBUTING.md).
-
-## Hub de Projetos
-
-As ideias, RFCs, decisões arquiteturais e documentos técnicos de apoio ficam centralizados no repositório [Project Hub](https://github.com/campos-labs/project-hub).
+[Kanban Visual]: https://github.com/orgs/campos-labs/projects/1
+[Guia de Governança]: https://github.com/campos-labs/.github/blob/main/CONTRIBUTING.md
+[Project Hub]: https://github.com/campos-labs/project-hub
