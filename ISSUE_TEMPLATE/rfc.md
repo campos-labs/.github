@@ -10,6 +10,7 @@ type: RFC
 <!--
 Criar no project-hub.
 Usar no título o nome ou slug do projeto.
+Criar o DESIGN inicial a partir de `campos-labs/project-hub/rfcs/_template/DESIGN.md`.
 Remover, duplicar ou reformular POCs e Spikes conforme necessário.
 Converter os itens em Issues e vinculá-los como subissues nativas da RFC.
 Configurar blocked by, Project e demais metadados após a criação.
