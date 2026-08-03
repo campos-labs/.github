@@ -1,7 +1,7 @@
 ---
 name: Epic — Evolução planejada pós-v1.0
 about: Preservar capacidades planejadas e desdobrá-las sob demanda
-title: ""
+title: "Evolução planejada pós-v1.0"
 labels: ""
 assignees: ""
 type: Epic
