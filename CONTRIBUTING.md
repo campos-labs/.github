@@ -27,8 +27,8 @@ No novo repositório, o `DESIGN.md` representa a arquitetura vigente e os milest
 **Regras da Release:**
 
 - **Hierarquia:** `Epic` coordena subissues da versão; Issues de execução dispensam pai quando o milestone já fornece o contexto.
-- **Integração:** A `main` é protegida; cada Issue folha gera, em regra, um PR principal, que usa `Closes #ID` e passa por revisão.
-- **Qualidade:** `CODEOWNERS` apoia a revisão; CI verde é recomendada quando houver checks configurados (ex.: `pytest` e `ruff`).
+- **Integração:** A `main` é protegida; em regra, cada Issue folha gera um PR principal com `Closes #ID` e revisão obrigatória.
+- **Qualidade:** `CODEOWNERS` direciona as revisões; havendo checks configurados, a CI deve estar verde (ex.: `pytest` e `ruff`).
 - **Release:** Milestones são atribuídos às Issues. Após a validação do escopo, a versão recebe uma tag e uma GitHub Release.
 
 ```mermaid
