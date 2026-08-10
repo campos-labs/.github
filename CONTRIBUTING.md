@@ -1,47 +1,47 @@
 # Governança e Fluxo de Trabalho
 
-Este documento define os padrões de engenharia da organização.  
-Nosso objetivo é um fluxo colaborativo assíncrono, rastreável e focado em entregas consistentes, sem burocracia desnecessária.
+Engenharia orientada à simplicidade, rastreabilidade e entregas demonstráveis. Processos assíncronos proporcionais ao risco técnico.
 
-## 1. Code Review e Sincronização
+## 1. Fase de Descoberta e Arquitetura (`project-hub`)
 
-* **Sem Issue, sem código**: Todo trabalho relevante é planejado via Issues e entregue via Pull Requests.
-* **Revisão**: Branch `main` é protegida nos repositórios de projeto. Todo PR exige revisão (`CODEOWNERS`), CI verde (ex: pytest, ruff).
-* **Alinhamento**: Segunda-feira é preferencial para revisar PRs e alinhar prioridades. Ideias em amadurecimento usam Draft PRs.
+Fase dedicada à ideação (início opcional em *Discussions*), validações e decisões pré-implementação, estruturada por tipos de issue:
 
-## 2. Ciclo de Vida e Documentação
+- **`RFC`:** Issue coordenadora que amadurece a proposta, seus limites e a arquitetura inicial registrada no `DESIGN.md`.
+- **`POC`:** Valida a hipótese técnica focada; `research/` concentra o código necessário e evidências explicadas.
+- **`Spike`:** Compara alternativas, investiga trade-offs e reduz incertezas antes da decisão.
+- **`ADR`:** Registra a decisão baseada em evidências, define o recorte adotado e atualiza o `DESIGN.md` quando a arquitetura muda.
+- **`Epic`:** Mapeia e coordena capacidades amplas; pode ser subissue temporária da RFC para registrar escopos adiados.
 
-* Projetos nascem como RFCs no repositório `project-hub`. Ao entrarem em execução, ganham repositório dedicado.
-* Discussions e Polls podem ser usados para ideação e priorização, mas a decisão executável é sempre registrada na Issue.
-* O `DESIGN.md` é a única fonte da verdade arquitetural. Ele migra para o repositório do projeto e evolui com o código.
+Aprovada a RFC (via *poll*), o produto ganha repositório dedicado, `DESIGN.md` e Epics podem ser transferidos, e a RFC é encerrada.
 
-## 3. Padrões Técnicos
+## 2. Fase de Execução e Releases (Repositório Dedicado)
 
-* **Segredos**: Nunca versione credenciais, tokens ou dados reais. Todo projeto deve ter `.env.example` e `.gitignore` rigoroso.
-* **Ambiente**: Docker e `docker-compose` são o padrão para projetos executáveis a partir do primeiro commit de aplicação.
-* **Low-Code / Cloud**: Foco em IaC (se aplicável), exportações higienizadas e documentação visual (diagramas e checklists).
+No novo repositório, o `DESIGN.md` representa a arquitetura vigente e os milestones agrupam o trabalho planejado para cada release.
 
-## 4. Rastreabilidade e Gestão
+**Tipos de Issue de Execução:**
 
-Nossa gestão visual é centralizada no GitHub Project da organização.
+- **`FEAT`:** Entrega capacidade funcional; **`FIX`:** corrige defeito ou regressão; **`DOC`:** cria ou atualiza documentação.
+- **`CHORE`:** Cobre configuração, infraestrutura e automação; **`REFACTOR`:** melhora a estrutura sem alterar o comportamento esperado.
+- **`TEST`:** Trabalho exclusivo de testes; **`PERF`:** otimizações mensuráveis de desempenho. Complementares, adotados sob demanda.
 
-* **Issue Pai**: `\[RFC]` (ideação), `\[PRJ]` (projeto em execução) ou `\[ORG]` (governança).
-* **Sub-issues**: Trabalho executável com prefixos claros (`\[FEAT]`, `\[FIX]`, `\[DOC]`, `\[CHORE]`, `\[REFACTOR]`, `\[ADR]`).
-* **Regra**: 1 Sub-issue = 1 PR. A descrição do PR deve conter `Closes #ID\_DA\_SUBISSUE`.
+**Regras da Release:**
 
-## Visão Geral do Fluxo
+- **Hierarquia:** `Epic` coordena subissues da versão; Issues de execução dispensam pai quando o milestone já fornece o contexto.
+- **Integração:** A `main` é protegida; em regra, cada Issue folha gera um PR principal com `Closes #ID` e revisão obrigatória.
+- **Qualidade:** `CODEOWNERS` direciona as revisões; havendo checks configurados, a CI deve estar verde (ex.: `pytest` e `ruff`).
+- **Release:** Milestones são atribuídos às Issues. Após a validação do escopo, a versão recebe uma tag e uma GitHub Release.
 
 ```mermaid
-graph LR
-    A[Issue RFC/PRJ]
-    A --> B[Sub-Issue]
-    B --> C[To Do]
-    C --> D[In Progress]
-    D --> E[Pull Request]
-    E --> F[Review]
-
-    F -->|Aprova + Auto-Merge| G[Done]
-    F -->|Solicita Ajustes| D
-    F -->|Pausa/Rejeita| H[Backlog]
-
-```
+flowchart LR
+    D[Discussion] --> R[RFC]
+    R --> P[POC e Spike]
+    P --> A[ADR]
+    A --> G[DESIGN]
+    A -. escopo adiado .-> E[Epic]
+    A -. futuro/incerto .-> D
+    G --> X[Produto]
+    E -. transfere .-> X
+    X --> M[Milestone]
+    M --> I[Issues]
+    I --> PR[PR e CI]
+    PR --> V[Release]
