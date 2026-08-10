@@ -5,12 +5,14 @@ Laboratório de engenharia de software voltado à arquitetura de sistemas, autom
 ## Áreas de Atuação
 
 O problema de negócio orienta a arquitetura e a adoção de novas tecnologias em cada frente:
-* **Backend e IA:** Python, FastAPI, Django, LangGraph, RAG, sistemas multi-agentes.
-* **Engenharia de Dados:** PostgreSQL, DuckDB, Cosmos DB, Fabric, pipelines analíticos.
-* **Automação e Integrações:** Microsoft Power Platform, n8n, RPA, fluxos corporativos.
-* **Infraestrutura e Cloud:** Docker, GitHub Actions, Redis, Terraform, AWS, Azure, DevOps.  
+
+* **Backend e IA:** Desenvolvimento de serviços escaláveis, microsserviços, inteligência artificial aplicada, arquiteturas de recuperação baseada em conhecimento e orquestração de sistemas autônomos multi-agentes.
+* **Engenharia de Dados:** Modelagem relacional e analítica, bancos de dados distribuídos, plataformas unificadas de dados e construção de pipelines analíticos robustos.
+* **Automação e Integrações:** Integração contínua de sistemas legados e modernos, automação de processos corporativos, robótica de software e criação de fluxos de trabalho orientados a eventos.
+* **Infraestrutura e Cloud:** Containerização de aplicações, esteiras de integração e entrega contínua (CI/CD), cache distribuído, provisionamento automatizado de infraestrutura como código (IaC) e práticas de DevOps.
 
 ## Governança e Projetos
+
 * **[Guia de Governança]:** Define o fluxo de trabalho, os tipos de Issue e o ciclo de vida das entregas.
 * **[Guia de Segurança]:** Reúne as diretrizes de proteção, gestão de credenciais e higienização de dados.
 * **[Project Hub]:** Concentra a ideação, as RFCs, as pesquisas e as decisões arquiteturais antes da execução.
