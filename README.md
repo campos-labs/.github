@@ -6,10 +6,10 @@ Laboratório de engenharia de software voltado à arquitetura de sistemas, autom
 
 O problema de negócio orienta a arquitetura e a adoção de novas tecnologias em cada frente:
 
-* **Backend e IA:** Desenvolvimento de serviços escaláveis, microsserviços, inteligência artificial aplicada, arquiteturas de recuperação baseada em conhecimento e orquestração de sistemas autônomos multi-agentes.
-* **Engenharia de Dados:** Modelagem relacional e analítica, bancos de dados distribuídos, plataformas unificadas de dados e construção de pipelines analíticos robustos.
-* **Automação e Integrações:** Integração contínua de sistemas legados e modernos, automação de processos corporativos, robótica de software e criação de fluxos de trabalho orientados a eventos.
-* **Infraestrutura e Cloud:** Containerização de aplicações, esteiras de integração e entrega contínua (CI/CD), cache distribuído, provisionamento automatizado de infraestrutura como código (IaC) e práticas de DevOps.
+* **Backend e IA:** APIs, sistemas web, microsserviços, RAG e agentes de IA.
+* **Engenharia de Dados:** Modelagem de dados, pipelines e plataformas analíticas.
+* **Automação e Integrações:** RPA, workflows, eventos e processos corporativos.
+* **Infraestrutura e Cloud:** Contêineres, CI/CD, IaC, observabilidade e DevOps.
 
 ## Governança e Projetos
 
