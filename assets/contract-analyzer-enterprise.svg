@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256"
+     viewBox="0 0 256 256" role="img"
+     aria-labelledby="contract-analyzer-enterprise-title contract-analyzer-enterprise-desc">
+  <title id="contract-analyzer-enterprise-title">Contract Analyzer Enterprise</title>
+  <desc id="contract-analyzer-enterprise-desc">Uma folha apresenta uma cláusula marcada entre colchetes.</desc>
+  <rect width="256" height="256" rx="0" fill="#0F172A"/>
+  <g fill="none" stroke="#BAE6FD" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M81 50h62l47 44v95a17 17 0 0 1-17 17H81
+             a17 17 0 0 1-17-17V67a17 17 0 0 1 17-17z"
+          stroke-width="15"/>
+    <path d="M143 50v44h47" stroke-width="13"/>
+    <path d="M106 122H94v46h12m44-46h12v46h-12" stroke-width="12"/>
+    <path d="M118 145h20" stroke-width="11"/>
+  </g>
+</svg>

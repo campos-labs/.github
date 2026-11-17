@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256"
+     viewBox="0 0 256 256" role="img"
+     aria-labelledby="agente-sped-title agente-sped-desc">
+  <title id="agente-sped-title">Agente SPED</title>
+  <desc id="agente-sped-desc">Uma grade de registros tem uma célula destacada para análise.</desc>
+  <rect width="256" height="256" rx="0" fill="#0F172A"/>
+  <rect x="55" y="65" width="146" height="126" rx="16"
+        fill="none" stroke="#FBBF24" stroke-width="15"/>
+  <path d="M108 65v126M55 103h146M55 153h146" fill="none"
+        stroke="#FBBF24" stroke-width="13"/>
+  <rect x="127" y="118" width="54" height="20" rx="6" fill="#FBBF24"/>
+</svg>

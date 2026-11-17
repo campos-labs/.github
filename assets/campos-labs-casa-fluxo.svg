@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256"
+     viewBox="0 0 256 256" role="img"
+     aria-labelledby="campos-labs-casa-fluxo-title campos-labs-casa-fluxo-desc">
+  <title id="campos-labs-casa-fluxo-title">Campos Labs — Casa em fluxo</title>
+  <desc id="campos-labs-casa-fluxo-desc">Um contorno de casa em C envolve um L que termina em um ponto de conexão.</desc>
+  <rect width="256" height="256" rx="0" fill="#0F172A"/>
+  <path d="M189 99 129 54 65 104v65a27 27 0 0 0 27 27h89"
+        fill="none" stroke="#38BDF8" stroke-width="19"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M117 110v44h55" fill="none" stroke="#F8FAFC"
+        stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="178" cy="154" r="13" fill="#38BDF8"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256"
+     viewBox="0 0 256 256" role="img"
+     aria-labelledby="campos-labs-lab-modular-title campos-labs-lab-modular-desc">
+  <title id="campos-labs-lab-modular-title">Campos Labs — Lab modular</title>
+  <desc id="campos-labs-lab-modular-desc">Um C aberto envolve um L que se conecta a um frasco de laboratório.</desc>
+  <rect width="256" height="256" rx="0" fill="#0F172A"/>
+  <path d="M160 62a76 76 0 1 0 0 132" fill="none" stroke="#38BDF8"
+        stroke-width="20" stroke-linecap="round"/>
+  <path d="M113 97v56a6 6 0 0 0 6 6h45" fill="none" stroke="#F8FAFC"
+        stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M170 91h27v12h-4v23l23 35c4 6 0 13-7 13h-50
+           c-7 0-11-7-7-13l23-35v-23h-5z"
+        fill="#7DD3FC"/>
+  <path d="M169 151h30" fill="none" stroke="#0F172A"
+        stroke-width="9" stroke-linecap="round"/>
+</svg>
