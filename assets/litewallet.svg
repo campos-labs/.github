@@ -3,7 +3,7 @@
      aria-labelledby="litewallet-title litewallet-desc">
   <title id="litewallet-title">LiteWallet</title>
   <desc id="litewallet-desc">Uma carteira verde com um cartão e um fecho lateral.</desc>
-  <rect width="256" height="256" rx="52" fill="#0F172A"/>
+  <rect width="256" height="256" rx="0" fill="#0F172A"/>
   <path d="m65 93 6-16a12 12 0 0 1 9-7l85-15a13 13 0 0 1 15 10l6 28z"
         fill="#86EFAC"/>
   <rect x="53" y="86" width="150" height="103" rx="23" fill="#4ADE80"/>
