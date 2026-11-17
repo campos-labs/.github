@@ -3,7 +3,7 @@
      aria-labelledby="supplier-onboarding-title supplier-onboarding-desc">
   <title id="supplier-onboarding-title">Portal de Fornecedores</title>
   <desc id="supplier-onboarding-desc">Um bloco atravessa um portal, representando a entrada de um fornecedor.</desc>
-  <rect width="256" height="256" rx="52" fill="#0F172A"/>
+  <rect width="256" height="256" rx="0" fill="#0F172A"/>
   <g fill="none" stroke="#5EEAD4" stroke-linecap="round" stroke-linejoin="round">
     <path d="M102 103V77a18 18 0 0 1 18-18h60a18 18 0 0 1 18 18v102
              a18 18 0 0 1-18 18h-60a18 18 0 0 1-18-18"
