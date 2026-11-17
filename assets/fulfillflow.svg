@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256"
+     viewBox="0 0 256 256" role="img"
+     aria-labelledby="fulfillflow-title fulfillflow-desc">
+  <title id="fulfillflow-title">FulfillFlow</title>
+  <desc id="fulfillflow-desc">Um pacote em perspectiva e uma rota representam o fluxo de entrega.</desc>
+  <rect width="256" height="256" rx="52" fill="#0F172A"/>
+  <path d="m128 45 61 34-61 35-61-35z" fill="#FDBA74"/>
+  <path d="m67 91 55 32v48l-55-32z" fill="#FB923C"/>
+  <path d="m134 123 55-32v48l-55 32z" fill="#F97316"/>
+  <path d="M59 165v16a17 17 0 0 0 17 17h113m-15-15 15 15-15 15"
+        fill="none" stroke="#FDBA74" stroke-width="15"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
