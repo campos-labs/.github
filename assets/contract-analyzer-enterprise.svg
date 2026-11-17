@@ -4,7 +4,7 @@
   <title id="contract-analyzer-enterprise-title">Contract Analyzer Enterprise</title>
   <desc id="contract-analyzer-enterprise-desc">Uma folha apresenta uma cláusula marcada entre colchetes.</desc>
   <rect width="256" height="256" rx="0" fill="#0F172A"/>
-  <g fill="none" stroke="#FDA4AF" stroke-linecap="round" stroke-linejoin="round">
+  <g fill="none" stroke="#E6B8B0" stroke-linecap="round" stroke-linejoin="round">
     <path d="M81 50h62l47 44v95a17 17 0 0 1-17 17H81
              a17 17 0 0 1-17-17V67a17 17 0 0 1 17-17z"
           stroke-width="15"/>
